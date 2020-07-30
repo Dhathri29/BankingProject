@@ -42,7 +42,7 @@
 		
 <c:when test="${mode=='MODE_TRANSACTION' }">
 <div class="container text-center">
-				<h3>Update User</h3>
+				<h3>Transaction Page</h3>
 				<hr>
 <%-- 				<input type="hidden" name="id" value="${user.id }" /> --%>
 				<form class="form-horizontal" method="POST" action="/save-user">
